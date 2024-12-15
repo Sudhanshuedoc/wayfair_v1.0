@@ -1,0 +1,25 @@
+#parent {
+  max-width: 100%;
+  margin-top: 4px;
+  /* border: 1px solid red; */
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+#parent > div {
+  width: 30%;
+  /* border: 1px solid blue; */
+  padding: 60px;
+  text-align: center;
+}
+#parent > a {
+  color: #eae6ec;
+  text-decoration: underline;
+}
+#btn {
+  position: absolute;
+  bottom: 0.1vh;
+  background-color: #7b189f;
+  background-attachment: fixed;
+  left: 16.1vw;
+}

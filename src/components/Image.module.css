@@ -1,0 +1,15 @@
+#header {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 8px;
+}
+#header img {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#header:hover {
+  border: 1px solid grey;
+  border-radius: 10px;
+}

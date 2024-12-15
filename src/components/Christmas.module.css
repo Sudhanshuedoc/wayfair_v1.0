@@ -1,0 +1,28 @@
+#parent {
+  max-width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#child {
+  width: 33%;
+  padding: 5px;
+}
+#child:hover {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+#child img {
+  border-radius: 10px;
+}
+#child p {
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+/* @media screen and (max-width: 500px) {
+  #parent {
+    display: block;
+  }
+} */

@@ -1,0 +1,74 @@
+#parent {
+  max-width: 90%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+}
+#parent > div {
+  margin-top: 40px;
+  width: 20%;
+  /* border: 1px solid blue; */
+  text-align: left;
+}
+h2 {
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+#parent > div > p {
+  line-height: 2.5em;
+  font-weight: 300px;
+  font-family: sans-serif;
+}
+#parent > div > p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#parent > div button {
+  background-color: #7b189f;
+  color: white;
+  font-family: sans-serif;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+section {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+section > div > img {
+  width: 150px;
+  height: 55px;
+  margin: 0 10px;
+}
+section > div {
+  display: flex;
+}
+i {
+  margin-left: 20px;
+  color: #7b189f;
+}
+#link a {
+  margin-top: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+#link a:hover {
+  text-decoration: underline;
+}
+#link + p {
+  margin: 20px 15px;
+  margin-bottom: 40px;
+}
+div > a {
+  color: #7b189f;
+}
+/* @media screen and (max-width: 70px) {
+  #parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+} */
